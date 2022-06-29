@@ -1,0 +1,377 @@
+body {
+	box-sizing: border-box;
+	position: relative;
+	max-width: 1920px;
+	height: 5725px;
+	background-color: #fff;
+	padding: 0 0;
+	margin: 0 0;
+}
+li {
+	list-style-type: none;
+}
+
+.container-fluid {
+	width: 100%;
+	height: 816px;
+	background: #556EE6;
+	background-image: url('../img/Image.png');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/*верхнее меню навигации ----------------- MENU NAV*/
+.container {
+	width: 1120px;
+	margin: 0px auto;
+}
+
+.header_topbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 5px;
+	height: 54px;
+		margin-top: 40px;
+}
+.header_topbar__logo img {
+	width: 90px;
+	height: 20px;
+}
+
+.header_nav__item {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 30px;
+	font-size: 13px;
+}
+.header_nav__item:hover {
+	text-decoration: underline;
+}
+.header_nav__but {
+	background: none;
+	border: 1px solid #34C38F;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #34C38F;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 5px 15px;
+}
+/*конец верхнее меню навигации  --------------- END*/
+
+.line  {
+	border-bottom:1px solid rgba(255, 255, 255, 0.101961);
+}
+
+/*блок text_skote ---------------------------- TEXT_SKOTE*/
+.header_content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.text_skote {
+	/*position: absolute;*/
+	width: 438px;
+	height: 302px;
+	margin-top: 188px;
+/*	left: 201px;
+	top: 277px;*/
+}
+.text_skote__big {
+	height: 189px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 63px;
+	color: #FFFFFF;
+}
+.text_skote__small {
+	height: 44px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(255, 255, 255, 0.498039);
+	margin-top: 10px;
+}
+.btn_light_green {
+	margin-top: 23px;
+	width: 128px;
+	height: 36px;
+	background: #34C38F;
+	border-radius: 4px;
+	border: 0px;
+}
+.btn_white {
+	margin-top: 23px;
+	width: 99px;
+	height: 36px;
+	background: #FFFFFF;
+	border-radius: 4px;
+	border: 0px;
+}
+/*конец text_skote ----------------------------- END*/ 
+
+/*блок time_skote ------------------------------ TIME_SKOTE*/
+.time_skote {
+	width: 450px;
+	height: 400px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	margin-top: 141px;
+}
+.time_skote__title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 42px;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 16.25px;
+	line-height: 24px;
+	color: #495057;
+	box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, .25);
+}
+.time_skote__text{
+	display:block;
+	width: 128px;
+	height: 23.94px;
+	margin: auto;
+	margin-top: 26px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16.25px;
+	line-height: 24px;
+	
+	color: #495057;
+}
+.time_skote__date {
+	display: flex;
+	flex-direction: row;
+	margin-top: 14px;
+	justify-content: space-around;
+}
+.time_date__item {
+	width: 85px;
+	height: 85px;
+}
+.time_item_num {
+	display: inline-block;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 33px;
+	color: #000000;
+	margin: 8px 22px;
+}
+.time_item_text {
+	width: 66px;
+	height: 26px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #495057;
+	margin-left: 9px;
+}
+.time_skote__btn {
+	margin-top: 24px;
+	margin-left: 170px;
+}
+.time_skote_equality {
+	display: inline-block;
+	margin-top: 44px;
+	margin-left: 149px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19.5px;
+	line-height: 29px;
+	color: #495057;
+}
+.time_progressbar {
+	width: 412.64px;
+	height: 38.51px;
+	margin: 20px;
+	margin-top: 10px;
+}
+.time_progressbar__proc {
+	display: flex;
+	flex-direction: row;
+
+}
+.progress_proc__num {
+	margin-left: 66px;
+}
+.progress_proc__num1 {
+	margin-left: 170px;
+}
+.time_progress__line {
+	width: 411px;
+	height: 16px;
+	display: flex;
+	flex-direction: row;
+}
+
+/*конец блока time_skote -------------------------- END*/
+
+/*Блока криптовалют*/
+.cryptocurrency {
+	display: flex;
+
+	padding-top: 1000px;
+	border: 1px solid darkred;
+
+	position: relative;
+	z-index: 10;
+}
+.cryptocurrency_card {
+	display: flex;
+	width: 356px;
+	height: 121px;
+	margin-bottom: 10px;
+	margin-right: 24px;
+}
+.cryptocurrency_card:last-child {
+	margin-right: 0px;
+}
+.cryptocurrency_card__img {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.cryptocurrency_card__text {
+	margin-left: 17px;
+}
+/*Конец Блока криптовалют*/
+
+
+
+
+
+ 
+
+
+
+/*footer ------------------------------------------ FOOTER*/
+.container-fluid_footer {
+	width: 100%;	/*- почему-то не занимает всю доступную ширину*/
+	height: 586px;
+	background: #2A3042;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	margin-top: -566px;
+	
+}
+
+.footer_column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.footer_column__item {
+	margin-top: 77px;
+}
+.column_item__title {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16.25px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+.column_item {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+	margin-top: 13.6px;
+}
+.column_item .line {
+	margin-bottom: 14px;
+}
+
+/*ЗАТЫК С ЦВЕТОМ ТЕКСТА И БЭКА*/
+.column_card_title {
+	display: inline-block;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 16px;
+	background-color: white; - /*бэк не верный, верный - сливается*/
+	opacity: .1804;
+	border-radius: 2px;
+}
+
+
+.card_title__text {
+	color: #34C38F;
+	opacity: 1;
+}
+ .column_card_text {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFFFFF; - /*цвет не делается белым*/
+	margin-top: 13.6px;
+}
+.column_card_date {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 14px;
+}
+.column_cart_img {
+	width: 13px;
+	height: 13px;
+}
+.card_date__text {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	margin-left: 3px;
+}
+/*До ЗДЕСЬ*/
+
+/*footer_end*/
+.footer_end {
+	display: flex;
+	flex-direction: column;
+	margin-top: 48px;
+	margin-bottom: 53.6px;
+}
+.footer_end__text {
+	margin-top: 23px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.498039);
+
+}
+/*конец footer_end*/
