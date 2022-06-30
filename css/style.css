@@ -14,6 +14,11 @@ li {
 .container-fluid {
 	width: 100%;
 	height: 816px;
+}
+.container {
+
+}
+.header {
 	background: #556EE6;
 	background-image: url('../img/Image.png');
 	position: absolute;
@@ -22,218 +27,21 @@ li {
 }
 
 /*верхнее меню навигации ----------------- MENU NAV*/
-.container {
-	width: 1120px;
-	margin: 0px auto;
+.navbar {
+    border: 1px solid red;
+    height: 54px;
 }
-
-.header_topbar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 5px;
-	height: 54px;
-		margin-top: 40px;
-}
-.header_topbar__logo img {
-	width: 90px;
-	height: 20px;
-}
-
-.header_nav__item {
-	text-decoration: none;
-	color: #fff;
-	margin-right: 30px;
-	font-size: 13px;
-}
-.header_nav__item:hover {
-	text-decoration: underline;
-}
-.header_nav__but {
-	background: none;
-	border: 1px solid #34C38F;
-	border-radius: 5px;
-	cursor: pointer;
-	color: #34C38F;
-	font-family: 'Poppins';
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 20px;
-	padding: 5px 15px;
+.cursor {
+    cursor: pointer;
 }
 /*конец верхнее меню навигации  --------------- END*/
 
-.line  {
-	border-bottom:1px solid rgba(255, 255, 255, 0.101961);
-}
-
-/*блок text_skote ---------------------------- TEXT_SKOTE*/
-.header_content{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-.text_skote {
-	/*position: absolute;*/
-	width: 438px;
-	height: 302px;
-	margin-top: 188px;
-/*	left: 201px;
-	top: 277px;*/
-}
-.text_skote__big {
-	height: 189px;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 42px;
-	line-height: 63px;
-	color: #FFFFFF;
-}
-.text_skote__small {
-	height: 44px;
-	font-family: 'Poppins';
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 22px;
-	color: rgba(255, 255, 255, 0.498039);
-	margin-top: 10px;
-}
-.btn_light_green {
-	margin-top: 23px;
-	width: 128px;
-	height: 36px;
-	background: #34C38F;
-	border-radius: 4px;
-	border: 0px;
-}
-.btn_white {
-	margin-top: 23px;
-	width: 99px;
-	height: 36px;
-	background: #FFFFFF;
-	border-radius: 4px;
-	border: 0px;
-}
-/*конец text_skote ----------------------------- END*/ 
-
-/*блок time_skote ------------------------------ TIME_SKOTE*/
-.time_skote {
-	width: 450px;
-	height: 400px;
-	background-color: #FFFFFF;
-	border-radius: 4px;
-	margin-top: 141px;
-}
-.time_skote__title {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 42px;
-	font-family: 'Poppins';
-	font-weight: 500;
-	font-size: 16.25px;
-	line-height: 24px;
-	color: #495057;
-	box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, .25);
-}
-.time_skote__text{
-	display:block;
-	width: 128px;
-	height: 23.94px;
-	margin: auto;
-	margin-top: 26px;
-
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16.25px;
-	line-height: 24px;
-	
-	color: #495057;
-}
-.time_skote__date {
-	display: flex;
-	flex-direction: row;
-	margin-top: 14px;
-	justify-content: space-around;
-}
-.time_date__item {
-	width: 85px;
-	height: 85px;
-}
-.time_item_num {
-	display: inline-block;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 33px;
-	color: #000000;
-	margin: 8px 22px;
-}
-.time_item_text {
-	width: 66px;
-	height: 26px;
-
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 18px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #495057;
-	margin-left: 9px;
-}
-.time_skote__btn {
-	margin-top: 24px;
-	margin-left: 170px;
-}
-.time_skote_equality {
-	display: inline-block;
-	margin-top: 44px;
-	margin-left: 149px;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 19.5px;
-	line-height: 29px;
-	color: #495057;
-}
-.time_progressbar {
-	width: 412.64px;
-	height: 38.51px;
-	margin: 20px;
-	margin-top: 10px;
-}
-.time_progressbar__proc {
-	display: flex;
-	flex-direction: row;
-
-}
-.progress_proc__num {
-	margin-left: 66px;
-}
-.progress_proc__num1 {
-	margin-left: 170px;
-}
-.time_progress__line {
-	width: 411px;
-	height: 16px;
-	display: flex;
-	flex-direction: row;
-}
-
-/*конец блока time_skote -------------------------- END*/
 
 /*Блока криптовалют*/
 .cryptocurrency {
 	display: flex;
 
 	padding-top: 1000px;
-	border: 1px solid darkred;
 
 	position: relative;
 	z-index: 10;
