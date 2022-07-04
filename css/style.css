@@ -41,6 +41,50 @@ li {
 }
 /*конец верхнее меню навигации  --------------- END*/
 
+/*Контент хедера*/
+.block_text {
+    width: 440px;
+    height: 302px;
+    padding: 0px;
+}
+.block_text__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+.block_text__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.498039);
+}
+.block_time {
+    width: 451px;
+    height: 394px;
+}
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+}
+.card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495057;
+}
+
+/*Конец Контент хедера*/
 
 /*Блока криптовалют*/
 .cryptocurrency {
