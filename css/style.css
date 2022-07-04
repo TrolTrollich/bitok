@@ -6,6 +6,7 @@ body {
 	background-color: #fff;
 	padding: 0 0;
 	margin: 0 0;
+	font-family: 'Poppins';
 }
 li {
 	list-style-type: none;
@@ -15,10 +16,8 @@ li {
 	width: 100%;
 	height: 816px;
 }
-.container {
-
-}
-.header {
+/*верхнее меню навигации ----------------- MENU NAV*/
+.header_bg {
 	background: #556EE6;
 	background-image: url('../img/Image.png');
 	position: absolute;
@@ -26,13 +25,19 @@ li {
 	left: 0px;
 }
 
-/*верхнее меню навигации ----------------- MENU NAV*/
-.navbar {
-    border: 1px solid red;
-    height: 54px;
+.header-text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.6;
 }
-.cursor {
-    cursor: pointer;
+
+.active {
+    opacity: 0.89;
+}
+/*Линия*/
+.ligth-white {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.101961);
 }
 /*конец верхнее меню навигации  --------------- END*/
 
